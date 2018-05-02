@@ -1,0 +1,13 @@
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\bin\iPhoneSimulator\Debug\popuptest.exe
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\bin\iPhoneSimulator\Debug\popuptest.pdb
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\ibtool\_BundleResourceWithLogicalName.items
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\actool\_PartialAppManifest.items
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\actool\_BundleResourceWithLogicalName.items
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\coremlc\_PartialAppManifest.items
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\coremlc\_BundleResourceWithLogicalName.items
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\optimized\Entitlements.plist
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\optimized\
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\popuptest.csproj.CoreCompileInputs.cache
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\popuptest.exe
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\popuptest.pdb
+C:\Users\tlsto\Desktop\programs\Xamarin\popuptest\obj\iPhoneSimulator\Debug\popuptest.csprojResolveAssemblyReference.cache
