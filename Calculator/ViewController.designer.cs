@@ -67,6 +67,10 @@ namespace Calculator
 
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton buttonClear { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton buttonDecimal { get; set; }
 
         [Outlet]
@@ -80,6 +84,10 @@ namespace Calculator
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton buttonSubtract { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UILabel output { get; set; }
 
         void ReleaseDesignerOutlets ()
         {
@@ -148,6 +156,11 @@ namespace Calculator
                 buttonChangeSign = null;
             }
 
+            if (buttonClear != null) {
+                buttonClear.Dispose ();
+                buttonClear = null;
+            }
+
             if (buttonDecimal != null) {
                 buttonDecimal.Dispose ();
                 buttonDecimal = null;
@@ -166,6 +179,11 @@ namespace Calculator
             if (buttonSubtract != null) {
                 buttonSubtract.Dispose ();
                 buttonSubtract = null;
+            }
+
+            if (output != null) {
+                output.Dispose ();
+                output = null;
             }
         }
     }

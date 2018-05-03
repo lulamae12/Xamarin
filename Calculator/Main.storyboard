@@ -311,7 +311,7 @@
                                 </userDefinedRuntimeAttributes>
                             </button>
                             <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="289" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
-                                <rect key="frame" x="236" y="233" width="68" height="41"/>
+                                <rect key="frame" x="236" y="223" width="68" height="41"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
                                 <size key="titleShadowOffset" width="0" height="0"/>
@@ -327,6 +327,40 @@
                                     </userDefinedRuntimeAttribute>
                                 </userDefinedRuntimeAttributes>
                             </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="550" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="223" width="205" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="C">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" textAlignment="right" lineBreakMode="tailTruncation" adjustsFontSizeToFit="NO" id="791" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES" baselineAdjustment="alignBaselines" text="0">
+                                <rect key="frame" x="16" y="122" width="288" height="68"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="40"/>
+                                <nil key="highlightedColor"/>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                                <color key="tintColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                                <accessibility key="accessibilityConfiguration">
+                                    <accessibilityTraits key="traits" notEnabled="YES" staticText="YES"/>
+                                </accessibility>
+                            </label>
                         </subviews>
                     </view>
                     <connections>
@@ -347,6 +381,8 @@
                         <outlet property="buttonEqual" destination="255" id="name-outlet-255"/>
                         <outlet property="buttonChangeSign" destination="256" id="name-outlet-256"/>
                         <outlet property=" buttonDivide" destination="289" id="name-outlet-289"/>
+                        <outlet property="buttonClear" destination="550" id="name-outlet-550"/>
+                        <outlet property="output" destination="791" id="name-outlet-791"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
