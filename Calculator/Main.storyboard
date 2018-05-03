@@ -1,0 +1,339 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_0" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="568"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <subviews>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="233" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="282" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="7">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="239" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="339" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="4">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="240" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="396" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="1">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="241" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="163" y="282" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="9">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="242" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="163" y="396" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="243" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="90" y="282" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="8">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="244" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="90" y="339" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="5">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="245" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="163" y="339" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="6">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="246" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="90" y="396" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="2">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="249" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="236" y="282" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="3">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="250" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="236" y="282" width="68" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="X">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="251" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="236" y="339" width="68" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="—">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="252" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="236" y="396" width="68" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="+">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="253" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="90" y="453" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="16"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="0">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="254" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="163" y="453" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="30"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title=".">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="255" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="236" y="453" width="68" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.85098039215686272" green="0.85098039215686272" blue="0.85098039215686272" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="=">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                            <button contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="256" translatesAutoresizingMaskIntoConstraints="NO" fixedFrame="YES">
+                                <rect key="frame" x="16" y="453" width="58" height="41"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="AppleSDGothicNeo-Regular" family="Apple SD Gothic Neo" pointSize="20"/>
+                                <size key="titleShadowOffset" width="0" height="0"/>
+                                <color key="backgroundColor" colorSpace="calibratedRGB" red="0.5490196078431373" green="0.5490196078431373" blue="0.5490196078431373" alpha="1"/>
+                                <color key="tintColor" colorSpace="calibratedRGB" red="0.15294117647058825" green="0.28235294117647058" blue="0.96078431372549022" alpha="1"/>
+                                <state key="normal" title="±">
+                                    <color key="titleColor" colorSpace="calibratedRGB" red="0" green="0" blue="0" alpha="1"/>
+                                    <color key="titleShadowColor" colorSpace="calibratedRGB" red="0.98039215686274506" green="0.15294117647058825" blue="0.15294117647058825" alpha="1"/>
+                                </state>
+                                <userDefinedRuntimeAttributes>
+                                    <userDefinedRuntimeAttribute keyPath="layer.cornerRadius" type="number">
+                                        <real key="value" value="5"/>
+                                    </userDefinedRuntimeAttribute>
+                                </userDefinedRuntimeAttributes>
+                            </button>
+                        </subviews>
+                    </view>
+                    <connections>
+                        <outlet property="button7" destination="233" id="name-outlet-233"/>
+                        <outlet property="button8" destination="243" id="name-outlet-243"/>
+                        <outlet property="button9" destination="241" id="name-outlet-241"/>
+                        <outlet property="button4" destination="239" id="name-outlet-239"/>
+                        <outlet property="button5" destination="244" id="name-outlet-244"/>
+                        <outlet property="button6" destination="245" id="name-outlet-245"/>
+                        <outlet property="button1" destination="240" id="name-outlet-240"/>
+                        <outlet property="button2" destination="246" id="name-outlet-246"/>
+                        <outlet property="button3" destination="242" id="name-outlet-242"/>
+                        <outlet property="buttonMultiply" destination="250" id="name-outlet-250"/>
+                        <outlet property="buttonSubtract" destination="251" id="name-outlet-251"/>
+                        <outlet property="buttonAdd" destination="252" id="name-outlet-252"/>
+                        <outlet property="button0" destination="253" id="name-outlet-253"/>
+                        <outlet property="buttonDecimal" destination="254" id="name-outlet-254"/>
+                        <outlet property="buttonEqual" destination="255" id="name-outlet-255"/>
+                        <outlet property="buttonChangeSign" destination="256" id="name-outlet-256"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="0.0" y="0.0"/>
+        </scene>
+    </scenes>
+</document>
