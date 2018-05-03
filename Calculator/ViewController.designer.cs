@@ -15,6 +15,10 @@ namespace Calculator
     {
         [Outlet]
         [GeneratedCode ("iOS Designer", "1.0")]
+        UIKit.UIButton  buttonDivide { get; set; }
+
+        [Outlet]
+        [GeneratedCode ("iOS Designer", "1.0")]
         UIKit.UIButton button0 { get; set; }
 
         [Outlet]
@@ -79,6 +83,11 @@ namespace Calculator
 
         void ReleaseDesignerOutlets ()
         {
+            if ( buttonDivide != null) {
+                 buttonDivide.Dispose ();
+                 buttonDivide = null;
+            }
+
             if (button0 != null) {
                 button0.Dispose ();
                 button0 = null;
